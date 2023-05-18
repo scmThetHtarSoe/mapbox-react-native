@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "mapbox-reactnative",
+    "slug": "mapbox-reactnative",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.thethtarsoe.mapbox"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsImpl": "mapbox",
+          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoibWF5dGh1emFybGluIiwiYSI6ImNsaHNyNHo5NzJudnUzZm9kOTVxc2o3NW8ifQ.lLdlZAm3QcqesN9tTZy_CQ"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6a7240be-1edb-4eb2-9420-76cc099f1f08"
+      }
+    }
+  }
+}
